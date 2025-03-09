@@ -1,5 +1,52 @@
-# Vue 3 + TypeScript + Vite
+# Weather Test
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Описание
+Простое веб-приложение для получения информации о погоде. Проект создан с использованием Vue 3, Pinia, Element Plus и TypeScript.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Установка и запуск
+
+### Клонирование репозитория
+```sh
+git clone <URL_РЕПОЗИТОРИЯ>
+cd weather-test
+```
+
+### Установка зависимостей
+```sh
+npm install
+```
+
+### Запуск в режиме разработки
+```sh
+npm run dev
+```
+
+### Сборка проекта
+```sh
+npm run build
+```
+
+### Предпросмотр собранного проекта
+```sh
+npm run preview
+```
+
+### Деплой на GitHub Pages
+```sh
+npm run deploy
+```
+
+## Технологии
+- Vue 3
+- Pinia
+- Element Plus
+- TypeScript
+- Vite
+- Axios
+- Sass
+
+## Структура проекта
+- `src/` — Исходный код приложения
+- `public/` — Статические файлы
+- `dist/` — Сборка проекта
+- `package.json` — Список зависимостей и команды для запуска
